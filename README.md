@@ -30,7 +30,8 @@ lean源码版本，内核为**5.15**、**6.6**
 
 ## 固件截图：
 ### 6.6版
-![image](https://github.com/user-attachments/assets/78435d19-f7fe-43cc-b7aa-da3ceb557f9e)
+![image](https://github.com/user-attachments/assets/a3d427d2-9ece-4d6e-a1b5-da228fde966e)
+
 
 ## 其他
 联系：

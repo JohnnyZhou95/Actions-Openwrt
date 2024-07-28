@@ -49,8 +49,10 @@ git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/ope
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/passwall
 # git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
-# git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
+git clone https://github.com/immortalwrt/homeproxy.git package/luci-app-homeproxy
 # git clone -b luci-smartdns-new-version https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
+git clone https://github.com/linkease/istore.git package/luci-app-store
+git clone https://github.com/linkease/istore-ui.git package/istore-ui
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon-18.06
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge.git package/luci-theme-edge
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
@@ -61,7 +63,6 @@ find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 find ./ | grep Makefile | grep mosdns | xargs rm -f
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
-git clone https://github.com/linkease/istore.git package/luci-app-store
 # git clone https://github.com/project-lede/luci-app-godproxy.git package/luci-app-godproxy
 # git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter
 # git clone https://github.com/BCYDTZ/luci-app-UUGameAcc.git package/luci-app-UUGameAcc
